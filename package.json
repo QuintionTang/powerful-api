@@ -1,0 +1,32 @@
+{
+    "name": "powerful-api",
+    "version": "1.0.0",
+    "author": "Quintion <QuintionTang@gmail.com>",
+    "description": "一个基于Nodejs、GraphQL、MongoDB、Hapi 和 Swagger 构建 API",
+    "main": "app.js",
+    "scripts": {
+        "start": "node server.js",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "nodemon server.js"
+    },
+    "keywords": [
+        "nodejs",
+        "graphQL",
+        "MongoDB",
+        "Hapi",
+        "Swagger"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/QuintionTang/powerful-api.git"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "hapi": "^18.1.0",
+        "nodemon": "^2.0.20"
+    },
+    "devDependencies": {
+        "babel-eslint": "^10.0.3",
+        "eslint-plugin-node": "^11.0.0"
+    }
+}
