@@ -23,6 +23,7 @@
     "license": "MIT",
     "dependencies": {
         "hapi": "^18.1.0",
+        "mongoose": "^6.7.4",
         "nodemon": "^2.0.20"
     },
     "devDependencies": {
